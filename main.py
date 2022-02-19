@@ -8,7 +8,7 @@ class Main(Frame):
 
     def build(self):
         self.formula = "0"
-        self.lbl = Label(text=self.formula, font=("Times New Roman", 32, "bold"), bg="#cff", foreground="#000")
+        self.lbl = Label(text=self.formula, font=("Times New Roman", 64, "bold"), bg="#cff", foreground="#000")
         self.lbl.place(x=11, y=50)
 
         btns = [
